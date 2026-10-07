@@ -8,12 +8,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        String Menu;
-        String Title;
-        Menu = File.ReadAllText(@"Ressources/Menu/Menu.txt");
-        Title = File.ReadAllText(@"Ressources/Images/Title.txt");
-        Console.WriteLine(Menu);
-        Console.WriteLine(Title);
+        String Menu_title;
+        String Title_image;
+        String User_Next_Command;
+        Menu_title = File.ReadAllText(@"Ressources/Menu/Message_d'acceuil.txt");
+        Title_image = File.ReadAllText(@"Ressources/Images/Title.txt");
+        User_Next_Command = File.ReadAllText(@"Ressources/Contextuel/Demande_de_continuité.txt");
+        Console.WriteLine(Menu_title);
+        Console.WriteLine(Title_image);
+        Console.WriteLine(User_Next_Command);
         Console.ReadLine();
         Console.Clear();
 
