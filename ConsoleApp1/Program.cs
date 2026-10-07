@@ -40,6 +40,10 @@ public static void Chapitre_1()
         String msg7;
         String msg8;
         String choix;
+        String img1;
+        String img2;
+        String img3;
+        String img4;
         Title = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/Title.txt");
         User_Next_Command = File.ReadAllText(@"Ressources/Contextuel/Demande_de_continuité.txt");
         Console.WriteLine(Title);
@@ -47,6 +51,8 @@ public static void Chapitre_1()
         Console.ReadLine();
         Console.Clear();
         msg1 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg1.txt");
+        img1 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/Images_chapitre_1/Voltage.txt");
+        Console.WriteLine(img1);
         Console.WriteLine(msg1);
         Console.WriteLine(User_Next_Command);
         Console.ReadLine();
@@ -57,6 +63,8 @@ public static void Chapitre_1()
         Console.ReadLine();
         Console.Clear();
         msg3 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg3.txt");
+        img2 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/Images_chapitre_1/Horloge.txt");
+        Console.WriteLine(img2);
         Console.WriteLine(msg3);
         Console.WriteLine(User_Next_Command);
         Console.ReadLine();
@@ -77,6 +85,8 @@ public static void Chapitre_1()
         Console.ReadLine();
         Console.Clear();
         msg7 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg7.txt");
+        img3 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/Images_chapitre_1/Atelier.txt");
+        Console.WriteLine(img3);
         Console.WriteLine(msg7);
         Console.WriteLine(User_Next_Command);
         Console.ReadLine();
@@ -84,7 +94,7 @@ public static void Chapitre_1()
         msg8 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg8.txt");
         Console.WriteLine(msg8);
         Console.WriteLine(User_Next_Command);
-        Console.Write("Choisissez une option : 1, 2 ou 3");
+        Console.Write("Appuyer sur Entrée pour recommencer le chapitre ou choisissez une option : 1, 2 ou 3 = ");
         choix = (Console.ReadLine() ?? string.Empty).ToLowerInvariant();
         switch (choix)
         {
