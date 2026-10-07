@@ -25,7 +25,3 @@ public static void Chapitre_1()
     }
 
 }
-
-    }
-
-}
