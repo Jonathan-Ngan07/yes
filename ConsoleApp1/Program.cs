@@ -119,4 +119,72 @@ public static void Chapitre_1minus3()
     Console.Clear();
     }
 
+public static void Chapitre_2()
+    {
+        String Title;
+        String User_Next_Command;
+        String msg1;
+        String msg2;
+        String msg3;
+        String msg4;
+        String msg5;
+        String choix;
+        Title = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/Title.txt");
+        User_Next_Command = File.ReadAllText(@"Ressources/Contextuel/Demande_de_continuité.txt");
+        Console.Clear();
+        Console.WriteLine(Title);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg1 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/msg1.txt");
+        Console.WriteLine(msg1);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg2 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/msg2.txt");
+        Console.WriteLine(msg2);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg3 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/msg3.txt");
+        Console.WriteLine(msg3);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg4 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/msg4.txt");
+        Console.WriteLine(msg4);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg5 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_2/msg5.txt");
+        Console.WriteLine(msg5);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        Console.Write("Choisissez une option : 1, 2 ou 3");
+        choix = (Console.ReadLine() ?? string.Empty).ToLowerInvariant();
+        switch (choix)
+        {
+            case "1":
+                Chapitre_1minus1();
+                break;
+            case "2":
+                Chapitre_1minus2();
+                break;
+            case "3":
+                Chapitre_1minus3();
+                break;
+            default:
+                Console.WriteLine("Choix invalide, veuillez réessayer le chapitre.");
+                Chapitre_1();
+                break;
+        }
+
+    }
+
+
+
+
+
+
 }
