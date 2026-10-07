@@ -6,10 +6,10 @@ using System.IO;
 
 class Program
 {
-    int Value1;
-    int Value2;
-    int Value3;
-    static void Main(string[] args)
+    static int Value1;
+    static int Value2;
+    static int Value3;
+static void Main(string[] args)
     {
         String Menu_title;
         String Title_image;
