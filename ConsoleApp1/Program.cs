@@ -8,11 +8,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        String choix;
-        String texte;
-        Console.WriteLine("Bienvenue dans l'aventure !");
-        texte = File.ReadAllText(@"Ressources\Entrer.txt");
-        Console.WriteLine(texte);
+        String Menu;
+        String Title;
+        Menu = File.ReadAllText(@"Ressources/Menu/Menu.txt");
+        Title = File.ReadAllText(@"Ressources/Images/Title.txt");
+        Console.WriteLine(Menu);
+        Console.WriteLine(Title);
         Console.ReadLine();
         Console.Clear();
 
