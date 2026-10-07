@@ -19,6 +19,8 @@ class Program
         Console.WriteLine(User_Next_Command);
         Console.ReadLine();
         Console.Clear();
+        Chapitre_1();
+    
 
     }
 
