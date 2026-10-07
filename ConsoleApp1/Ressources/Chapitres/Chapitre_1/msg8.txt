@@ -1,0 +1,5 @@
+Que décide Arthur d’examiner en premier ?
+
+1 - Examiner le moteur électrique qui s’est arrêté pendant les trois secondes.
+2 - Étudier le poste de radio afin de rechercher une anomalie dans les circuits.
+3 - Comparer plusieurs horloges mécaniques pour vérifier si elles présentent toutes le même décalage.

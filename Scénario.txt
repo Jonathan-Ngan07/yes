@@ -24,11 +24,13 @@ Trois jours s’étaient écoulés depuis l’étrange incident qui avait brièv
 
 Les journaux parlaient d’une simple perturbation électrique ayant affecté plusieurs quartiers de la capitale. Les compagnies d’électricité confirmaient une surcharge momentanée du réseau. Quant aux quelques témoignages plus extravagants, ils furent rapidement qualifiés de rumeurs alimentées par la panique.
 
+
 Pour la majorité des Londoniens, l’affaire était déjà oubliée.
 
 Pas pour Arthur Bennett.
 
 À vingt-quatre ans, Arthur travaillait comme mécanicien dans un petit atelier du quartier de Southwark. Depuis son enfance, il démontait tout ce qui lui passait entre les mains : radios, réveils, moteurs, générateurs... Son patron disait souvent qu’il comprenait mieux les machines que les gens.
+
 
 Le soir du 14 octobre, alors qu’il terminait la réparation d’un vieux poste de radio, quelque chose s’était produit.
 
@@ -36,17 +38,20 @@ Toutes les aiguilles de l’atelier s’étaient immobilisées.
 Le tic-tac de l’horloge murale avait cessé.  
 Le moteur électrique posé sur son établi s’était arrêté en pleine rotation.
 
+
 Puis, exactement trois secondes plus tard... tout était reparti comme si rien ne s’était passé.
 
 Aucune surtension.  
 Aucun fusible grillé.  
 Aucune trace de panne.
 
+
 Le phénomène défiait toute logique.
 
 Arthur avait d’abord pensé à une coupure générale, mais le lendemain, les horloges mécaniques à ressort qu’il entretenait présentaient elles aussi un léger décalage : **trois secondes**. Chacune.
 
 Personne autour de lui ne semblait s’en préoccuper.
+
 
 Son patron lui avait simplement répondu :
 
@@ -55,6 +60,7 @@ Son patron lui avait simplement répondu :
 Mais Arthur savait qu’un moteur électrique, une montre mécanique et un poste radio ne pouvaient pas tous réagir de manière identique à une simple panne de courant.
 
 Quelque chose ne collait pas.
+
 
 Et c’était précisément ce genre de détail qui refusait de quitter son esprit.
 

@@ -6,6 +6,9 @@ using System.IO;
 
 class Program
 {
+    int Value1;
+    int Value2;
+    int Value3;
     static void Main(string[] args)
     {
         String Menu_title;
@@ -25,9 +28,18 @@ class Program
 
 public static void Chapitre_1()
     {
+        Console.Clear();
         String Title;
         String User_Next_Command;
         String msg1;
+        String msg2;
+        String msg3;
+        String msg4;
+        String msg5;
+        String msg6;
+        String msg7;
+        String msg8;
+        String choix;
         Title = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/Title.txt");
         User_Next_Command = File.ReadAllText(@"Ressources/Contextuel/Demande_de_continuité.txt");
         Console.WriteLine(Title);
@@ -39,7 +51,72 @@ public static void Chapitre_1()
         Console.WriteLine(User_Next_Command);
         Console.ReadLine();
         Console.Clear();
+        msg2 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg2.txt");
+        Console.WriteLine(msg2);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg3 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg3.txt");
+        Console.WriteLine(msg3);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg4 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg4.txt");
+        Console.WriteLine(msg4);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg5 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg5.txt");
+        Console.WriteLine(msg5);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg6 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg6.txt");
+        Console.WriteLine(msg6);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg7 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg7.txt");
+        Console.WriteLine(msg7);
+        Console.WriteLine(User_Next_Command);
+        Console.ReadLine();
+        Console.Clear();
+        msg8 = File.ReadAllText(@"Ressources/Chapitres/Chapitre_1/msg8.txt");
+        Console.WriteLine(msg8);
+        Console.WriteLine(User_Next_Command);
+        Console.Write("Choisissez une option : 1, 2 ou 3");
+        choix = (Console.ReadLine() ?? string.Empty).ToLowerInvariant();
+        switch (choix)
+        {
+            case "1":
+                Chapitre_1minus1();
+                break;
+            case "2":
+                Chapitre_1minus2();
+                break;
+            case "3":
+                Chapitre_1minus3();
+                break;
+            default:
+                Console.WriteLine("Choix invalide, veuillez réessayer le chapitre.");
+                Chapitre_1();
+                break;
+        }
 
+    }
+public static void Chapitre_1minus1()
+    {
+    Console.Clear();
+    }
+
+public static void Chapitre_1minus2()
+    {
+    Console.Clear();
+    }
+
+public static void Chapitre_1minus3()
+    {
+    Console.Clear();
     }
 
 }
